@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./public/css/calendar.css">
+</head>
+<body ng-controller='calendarCtrl as calendar'>
+	<div style='width:1000px;margin:20px auto 0px auto'>
+		<create-calendar set-date='calendar.currentDate'></create-calendar>
+	</div>
+
+	<script type="text/javascript" src='../plugins/angular/angular.min.js'></script>
+	<script type="text/javascript" src='./public/scripts/calendar.js'></script>
+</body>
+</html>
